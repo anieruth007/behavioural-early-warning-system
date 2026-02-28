@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+
+# Notebook cache
+notebooks/__pycache__/
+
+# Source cache
+src/__pycache__/
