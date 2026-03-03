@@ -85,3 +85,68 @@ Built using **Streamlit + Plotly**
 ---
 
 ## 🏗 Project Structure
+
+
+behavioural-early-warning-system/
+│
+├── app/
+│ └── streamlit_app.py
+│
+├── src/
+│ ├── model.py
+│ ├── preprocessing.py
+│ └── intervention.py
+│
+├── data/
+│ └── synthetic_data.csv
+│
+├── notebooks/
+│
+├── requirements.txt
+└── README.md
+
+
+---
+
+## ▶️ How to Run
+
+### 1️⃣ Clone Repository
+
+git clone https://github.com/YOUR\_USERNAME/behavioural-early-warning-system.git
+
+cd behavioural-early-warning-system
+
+
+### 2️⃣ Install Dependencies
+
+pip install -r requirements.txt
+
+
+### 3️⃣ Run Dashboard
+
+streamlit run app/streamlit_app.py
+
+
+---
+
+## 🌍 Future Scope
+
+- Real institutional data integration
+- Federated Learning for multi-campus privacy
+- Real-time streaming risk prediction
+- REST API deployment
+- Cloud-native scaling
+
+---
+
+## 👨‍💻 Author
+
+**Anieruth S**  
+Integrated M.Tech CSE (Business Analytics)  
+VIT Chennai  
+
+---
+
+## 📌 License
+
+For academic and research demonstration purposes.
